@@ -352,6 +352,7 @@ section .main_btn:hover i{
     height: auto;
 }
 .wrapper{
+    z-index: 2;
     position: fixed;
     top: 0;
     left: 0;
@@ -366,7 +367,7 @@ section .main_btn:hover i{
 }
 .menu-btn{
     position: absolute;
-    z-index: 2;
+    z-index: 10;
     left: 20px;
     top: 20px;
     height: 50px;
@@ -375,7 +376,7 @@ section .main_btn:hover i{
     line-height: 50px;
     border-radius: 50%;
     font-size: 20px;
-    color: #080808;
+    color: #664229;
     cursor: pointer;
     transition: all 0.3s ease;
     background:#F2EEE6;
@@ -416,7 +417,7 @@ section .main_btn:hover i{
     left: 0;
     width: 100%;
     height: 50px;
-    background: #080808;
+    background: #664229;
     border-radius: 50px;
     transform: scaleY(0);
     z-index: -1;
@@ -427,9 +428,8 @@ section .main_btn:hover i{
 
 }
 .wrapper ul li a:hover{
-    color: #664229;
+    color: #ffffff;
 }
 input{
     display: none;
 }
-
